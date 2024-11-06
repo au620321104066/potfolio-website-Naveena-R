@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i> <!-- Add this icon for toggling -->
+        <nav class="navbar" id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's Me</h3>
+            <h1>NAVEENA RAJA</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Welcome to [portfolio],  go-to solution for professional website creation and development. With expertise in HTML, CSS, JavaScript, and full-stack technologies like the LAMP stack, we ensure that your website is not only visually appealing but also highly functional and optimized for performance.</p>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <div class="image-content">
+            <img src="images/aboutimg (2).png" alt="Your Image">
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="images/aboutme.2.png" alt="About Me Image">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Full Stack Developer!</h4>
+                <p>i am a final-year Computer Science and Engineering (CSE) student who has completed an internship and gained practical experience in web development. my skilled in HTML, CSS, and have worked on two major projects: a college website and a LAMP stack project.i am  also completed a software skills program at ICT Academy. Additionally,  manage a chicken shop alongsider in my technical pursuits.</p>
+                <a href="#portfolio" class="btn-box">See My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="skills-container">
+            <h1>Technical Skills</h1>
+            <ul>
+                <li>
+                    <span>HTML</span>
+                    <div class="percentage-bar">
+                        <div class="percentage" style="width: 75%;"></div>
+                    </div>
+                    <span class="percentage-text">75%</span>
+                </li>
+                <li>
+                    <span>CSS</span>
+                    <div class="percentage-bar">
+                        <div class="percentage" style="width: 65%;"></div>
+                    </div>
+                    <span class="percentage-text">65%</span>
+                </li>
+                <li>
+                    <span>JavaScript</span>
+                    <div class="percentage-bar">
+                        <div class="percentage" style="width: 70%;"></div>
+                    </div>
+                    <span class="percentage-text">70%</span>
+                </li>
+                <li>
+                    <span>python</span>
+                    <div class="percentage-bar">
+                        <div class="percentage" style="width: 65%;"></div>
+                    </div>
+                    <span class="percentage-text">65%</span>
+                </li>
+                <li>
+                    <span>Django</span>
+                    <div class="percentage-bar">
+                        <div class="percentage" style="width: 65%;"></div>
+                    </div>
+                    <span class="percentage-text">65%</span>
+                </li>
+                <li>
+                    <span>React</span>
+                    <div class="percentage-bar">
+                        <div class="percentage" style="width: 60%;"></div>
+                    </div>
+                    <span class="percentage-text">60%</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <div class="grid grid-cols-1 grid-cols-2 grid-cols-3 my-10 gap-5">
+        <div class="services">
+            <h1 class="sub-title"><span>My Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-webcam'></i>
+                    <h2>LAMP FULL STACK</h2>
+                    <p>A LAMP full-stack project involves building a web application using the LAMP stack.</p>
+                    <a href="#" class="btn-box">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bx-webcam'></i>
+                    <h2>AGRI E-COM</h2>
+                    <p>I developed an Agri E-commerce website to streamline the marketplace for fresh produce.</p>
+                    <a href="#" class="btn-box">Learn More</a>
+                </div>
+                <div>
+                    <i class='bx bx-webcam'></i>
+                    <h2>CHICKEN SHOP WEBSITE</h2>
+                    <p>A website for my chicken shop that provides a seamless online presence for local businesses.</p>
+                    <a href="#" class="btn-box">Learn More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <p>I'd love to hear from you! Feel free to reach out.</p>
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Typed.js Script -->
+    <script>
+        const typed = new Typed('.text', {
+            strings: ["Web Developer", "Full Stack Developer", "Creative Thinker"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+</body>
+</html>
